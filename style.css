@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(to right,#15b5f5,#ff6685);
+  }
+  .container{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255,255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+    border-top: 1px solid rgba(255, 255, 255, .3);
+  }
+  h1{
+    margin-top: 10%;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    
+  }
+  input{
+    width: 80%;
+    font-size: 20px;
+    margin: 5% auto;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    font-size:bold;
+  }
+  
+  button{
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    background: rgba(255, 255,255, 0.06);
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+  }
+  button:hover{
+    background: linear-gradient(to right,#1ab6f3,#f7617f);
+  }
+  #result{
+    color: white;
+    font-size: 6vh;
+    margin-top: 10%;
+    text-align: center;
+  }
+
+        /*--- media querys--- */
+
+  @media (min-width:327px ) {
+    .container{
+      width: 20rem;
+      height: 25rem;
+     
+    }
+    #result{
+      font-size: 40px;
+    }
+    
+  }
+
+  @media (min-width:320px ) {
+    .container{
+      width: 18rem;
+      height: 22rem;
+     
+    }
+    #result{
+      font-size: 25px;
+    }
+    
+  }
+
+  @media (min-width:414px ) {
+    .container{
+      width: 22rem;
+      height: 24rem;
+     
+    }
+    #result{
+      font-size: 26px;
+    }
+    
+  }
+
+
+
+  @media (min-width:480px ) {
+    .container{
+      width: 25rem;
+      height: 28rem;
+     
+    }
+    #result{
+      font-size: 30px;
+    }
+    
+  }
+
+  @media (min-width:720px ) {
+    .container{
+      width: 26rem;
+      height: 30rem;
+     
+    }
+    #result{
+      font-size: 30px;
+    }
+    
+  }
+
+
+
+
+  
